@@ -28,3 +28,5 @@ jobs:
       # Runs a single command using the runners shell
       - name: build
         run: dotnet build ./src/DotNetPad/DotNetPad.sln -c Release
+      - name: Test
+        run: dotnet test --verbosity normal
