@@ -1,0 +1,11 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <AssemblyName>Waf.DotNetPad.Domain</AssemblyName>
+    <RootNamespace>Waf.DotNetPad.Domain</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Waf.Core" Version="6.4.0" />
+  </ItemGroup>
+</Project>
